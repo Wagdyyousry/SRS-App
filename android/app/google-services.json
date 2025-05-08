@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "933797144568",
+    "project_id": "srs-system-9f1cc",
+    "storage_bucket": "srs-system-9f1cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933797144568:android:ee30dcd4ec5ee2524ed80d",
+        "android_client_info": {
+          "package_name": "com.wagdy.build.srs_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvKRc4kZ2Rc0ZKsQsJngDh8LkFpeH-kVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
