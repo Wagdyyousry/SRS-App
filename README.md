@@ -1,5 +1,5 @@
-## SRS System - Specialist Booking App                   *Mandatory Task at the bottom*
-"A simple" Service reservation system to connect users with specialists to search, filter, and book appointments with various specialists (doctors, consultants, engineers, etc).
+## SRS App - service Booking App       ----       *Mandatory Task at the bottom*
+A simple "Service reservation system" to connect users with specialists to search, filter, and book appointments with various specialists (doctors, consultants, engineers, etc).
 
 ### Setup Instructions
 1. "Clone the repo"
