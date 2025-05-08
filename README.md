@@ -1,23 +1,9 @@
-<<<<<<< HEAD
-# srs_system
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
 ## SRS App - service Booking App       ----       *Mandatory Task at the bottom*
 A simple "Service reservation system" to connect users with specialists to search, filter, and book appointments with various specialists (doctors, consultants, engineers, etc).
+
+## App walkthrough 
+Register/Login ➔ Browse Specialists/Search/Filter ➔ Select Specialist ➔ Pick Date & Time ➔
+ Confirm Appointment ➔ Manage My Appointments.
 
 ### Setup Instructions
 1. "Clone the repo"
@@ -29,6 +15,7 @@ A simple "Service reservation system" to connect users with specialists to searc
   . Add google-services.json to /android/app/.
   . Add GoogleService-Info.plist to /ios/Runner/.
 4. Run the App
+5. watch the walkthrough video https://drive.google.com/file/d/1m6r4qh3_SqhV3DraNw1W8x-YFcCTfYq2/view?usp=drivesdk
 
 ### App Architecture
 This app uses MVVM and GetX for state management.The structure includes:
