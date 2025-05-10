@@ -45,7 +45,7 @@ This app uses MVVM and GetX for state management.The structure includes:
 
 . Basic error handling and form validation in some screens.
 
-###📌 Business Requirements Understanding: 
+### Business Requirements Understanding: 
 
 The app helps users discover and book appointments with verified specialists. It makes it easy to search by name or category and ensures clear visibility into available time slots. The goal is to reduce friction in finding trustworthy experts across different professions and make booking fast, flexible, and remote-friendly.  
 
