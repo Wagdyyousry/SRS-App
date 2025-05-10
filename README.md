@@ -1,11 +1,13 @@
 ## SRS App - service Booking App       ----       *Mandatory Task at the bottom*
 A simple "Service reservation system" to connect users with specialists to search, filter, and book appointments with various specialists (doctors, consultants, engineers, etc).
 
-## App walkthrough 
+## App walkthrough: 
+
 Register/Login ➔ Browse Specialists/Search/Filter ➔ Select Specialist ➔ Pick Date & Time ➔
  Confirm Appointment ➔ Manage My Appointments.
 
-### Setup Instructions
+### Setup Instructions: 
+
 1. "Clone the repo"
    git clone https://github.com/your-username/srs_system.git
    cd srs_system
@@ -17,7 +19,8 @@ Register/Login ➔ Browse Specialists/Search/Filter ➔ Select Specialist ➔ Pi
 4. Run the App
 5. watch the walkthrough video https://drive.google.com/file/d/1m6r4qh3_SqhV3DraNw1W8x-YFcCTfYq2/view?usp=drivesdk
 
-### App Architecture
+### App Architecture: 
+
 This app uses MVVM and GetX for state management.The structure includes:
 . Models: Represent core data types like SpecialistModel, BookingModel.
 . Controllers: Business logic using GetX (e.g., SpecialistsController, UserController).
@@ -25,14 +28,16 @@ This app uses MVVM and GetX for state management.The structure includes:
 . Views (UI): Built with Flutter widgets and GetX bindings.
 . Firebase: Handles authentication, Firestore database, and storage.
 
-### Known Limitations =>"Future features"
+### Known Limitations =>"Future features":
+
 . No real-time chat between user and specialist (future feature).
 . No notifications/reminders system.
 . Specialist images are not yet uploaded from device/gallery.
 . No role-based login (e.g., admin vs. regular user).
 . Basic error handling and form validation in some screens.
 
-###📌 Business Requirements Understanding
+###📌 Business Requirements Understanding: 
+
 The app helps users discover and book appointments with verified specialists. It makes it easy to search by name or category and ensures clear visibility into available time slots. The goal is to reduce friction in finding trustworthy experts across different professions and make booking fast, flexible, and remote-friendly.  
 
 ### User Experience Thought Process -- A helpful improvement:
