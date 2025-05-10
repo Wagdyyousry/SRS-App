@@ -22,17 +22,25 @@ Register/Login ➔ Browse Specialists/Search/Filter ➔ Select Specialist ➔ Pi
 ### App Architecture: 
 
 This app uses MVVM and GetX for state management.The structure includes:
-. Models: Represent core data types like SpecialistModel, BookingModel.
+
+. Models: Represent core data types like SpecialistModel, UserModel, BookingModel.
+
 . Controllers: Business logic using GetX (e.g., SpecialistsController, UserController).
-. Repositories: Abstract Firebase interactions (SpecialistsRepo).
+
+. Repositories: Abstract Firebase interactions (SpecialistsRepo, UsersRepo).
+
 . Views (UI): Built with Flutter widgets and GetX bindings.
+
 . Firebase: Handles authentication, Firestore database, and storage.
 
 ### Known Limitations =>"Future features":
 
 . No real-time chat between user and specialist (future feature).
+
 . No notifications/reminders system.
+
 . Specialist images are not yet uploaded from device/gallery.
+
 . No role-based login (e.g., admin vs. regular user).
 
 . Basic error handling and form validation in some screens.
@@ -44,12 +52,18 @@ The app helps users discover and book appointments with verified specialists. It
 ### User Experience Thought Process -- A helpful improvement:
 
 1- Showing real-time availability, This would make booking more intuitive and reduce the chance of booking conflicts.
+
 2- Cancelling a reservation takes 5 to 10 minutes before cancellation. In case the user wants to return the booking.
+
 3- Possibility of canceling the reservation for a period of time.
+
 4- Recommend the user to take the necessary precautions for that specialist, depending on similar cases.
+
 5- "Favorites" feature for easy future access. This is useful for users who are browsing now but intend to book later.
+
 6- Instant Chat Before Booking - Allowing users to message a specialist before booking  could reduce 
    hesitation, especially if they have questions about availability or services.
+
 7- Booking Confirmation and Reminders through push notifications.
 
 
