@@ -34,6 +34,7 @@ This app uses MVVM and GetX for state management.The structure includes:
 . No notifications/reminders system.
 . Specialist images are not yet uploaded from device/gallery.
 . No role-based login (e.g., admin vs. regular user).
+
 . Basic error handling and form validation in some screens.
 
 ###📌 Business Requirements Understanding: 
