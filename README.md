@@ -9,7 +9,7 @@ Register/Login ➔ Browse Specialists/Search/Filter ➔ Select Specialist ➔ Pi
 ### Setup Instructions: 
 
 1. "Clone the repo"
-   git clone https://github.com/your-username/srs_system.git
+   git clone https://github.com/Wagdyyousry/srs_system.git
    cd srs_system
 2. Install dependencies
 3. Connect Firebase
